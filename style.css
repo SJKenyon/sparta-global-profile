@@ -1,0 +1,241 @@
+* {
+  font-family: arial, sans-serif;
+  /* background-color: #F8F8F8 */
+}
+
+main {
+  /* text-align: center; */
+  margin-top: 50px;
+  /* margin-bottom: 300px; */
+  height: 800px;
+  width: 100%;
+}
+
+nav .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #d3d3d3;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+  display: block;
+  list-style-type: ;
+}
+
+ul .li {
+  display: inline-block;
+}
+
+li a {
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #white;
+    border-radius: 50px;
+    opacity: 0.5;
+}
+
+ol {
+  margin-left: 30%;
+  list-style-type: none;
+  text-align: left;
+}
+
+textarea { /*form*/
+  align-content: center;
+  margin: 10px;
+  border: 2px dotted grey;
+  width: 30%;
+  height: 200px;
+}
+
+footer {
+  text-align: center;
+  background-color: lightgrey;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.active {
+    background-color: #999999;
+    border-radius: 50px;
+}
+
+.homeheader {
+    text-align: left;
+}
+
+.mephoto {
+  width: 20%;
+  float: left;
+  margin-right: 15px;
+}
+
+.academy {
+  padding: 10px;
+}
+
+.employ {
+  padding: 10px;
+}
+
+.skills {
+  padding: 10px;
+}
+
+/* .mebar {
+  text-align: left;
+  margin-top: 5px;
+  float: left;
+  overflow: hidden;
+  position: fixed;
+  right: -10px;
+  width: 100%;
+} */
+.h1mid {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.s1, .s3, .s5 {
+  text-align: center;
+  float: left;
+  width: 50%;
+  margin: 30px 0px;
+}
+
+.s2, .s4, .s6 {
+  text-align: center;
+  float: right;
+  width: 50%;
+  margin: 30px 0px;
+}
+
+.ALEVEL {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.form {
+  text-align: center;
+  font-size: 16px;
+}
+
+.input { /*form*/
+  text-align: center;
+  width: 20%;
+  height: 30px;
+  border: 2px solid grey;
+}
+
+
+/* FOOTER BUTTONS */
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 30px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-fast-backward {
+  background: ;
+  color: black;
+  opacity: 0.5;
+}
+
+.fa-briefcase {
+  background: #ff5670;
+  color: lightgrey;
+  opacity: 0.3;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+  opacity: 0.3;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  opacity: 0.3;
+}
+
+.fa-slack {
+  background: #dd75c2;
+  color: white;
+  opacity: 0.3;
+}
+
+
+.fa-arrow-up {
+  background: #2fc62f;
+  color: white;
+  opacity: 0.3;
+}
+
+.fa-fast-forward {
+  background: ;
+  color: black;
+  opacity: 0.5;
+}
+
+
+@media screen and (max-width: 750px) {
+  footer {
+    width: 750px;
+  }
+  img {
+    width: 100%;
+  }
+  .mephoto {
+    height: 200px;
+    width: 150px;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+
+  /* h1 {
+    text-align: left;
+  } */
+  .s1, .s2, .s3, .s4, .s5, .s6 {
+    float: none;
+  }
+  .navbar {
+    width: 650px;
+  }
+  .ALEVEL {
+    width: 150px;
+    margin: none;
+    float: left;
+  }
+  .ALEVEL ol {
+    margin-left: 0px;
+  }
+}
