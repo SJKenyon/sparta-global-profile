@@ -53,6 +53,11 @@ ol {
   text-align: left;
 }
 
+header {
+  text-align: center;
+  padding: 150px;
+}
+
 textarea { /*form*/
   align-content: center;
   margin: 10px;
@@ -89,14 +94,15 @@ footer {
 
 .homeheader {
     text-align: left;
-    padding: 20px;
-    padding-right: 300px;
+    /* padding: 20px; */
+    /* padding-right: 50px; */
 }
 
 .mephoto {
   width: 20%;
   float: left;
   margin-right: 15px;
+  border-radius: 5px;
 }
 
 .academy {
@@ -157,11 +163,12 @@ footer {
   background-color: #f2f7ff;
 }
 
-.bottom {
+/* .bottom {
   background-color: black;
+  bottom: 0;
   height: 50px;
   width: 100%;
-}
+} */
 
 /* FOOTER BUTTONS */
 
@@ -227,7 +234,7 @@ footer {
     width: 750px;
   }
   img {
-    width: 100%;
+    width: 90%;
   }
   .mephoto {
     height: 200px;
@@ -243,6 +250,7 @@ footer {
   } */
   .s1, .s2, .s3, .s4, .s5, .s6 {
     float: none;
+    width: 90%;
   }
   .navbar {
     width: 650px;
