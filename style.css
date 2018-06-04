@@ -105,12 +105,8 @@ footer {
   border-radius: 5px;
 }
 
-.academy {
-  padding: 10px;
-}
-
-.skills {
-  padding: 10px;
+.padding {
+  padding: 30px;
 }
 
 .center {
@@ -136,31 +132,6 @@ footer {
 .pro-img {
   width: 40%;
 }
-
-.ALEVEL {
-  margin: 0 auto;
-  width: 40%;
-}
-
-.form {
-  text-align: center;
-  font-size: 16px;
-}
-
-.input { /*form*/
-  text-align: center;
-  width: 20%;
-  height: 30px;
-  border: 2px solid grey;
-  background-color: #f2f7ff;
-}
-
-/* .bottom {
-  background-color: black;
-  bottom: 0;
-  height: 50px;
-  width: 100%;
-} */
 
 /* FOOTER BUTTONS */
 
